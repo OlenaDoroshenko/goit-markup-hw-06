@@ -68,7 +68,7 @@
     </header>
     <main>
       <section class="portfolio">
-        <h1 hidden>Works</h1>
+        <h1 class="visually-hidden">Works</h1>
         <div class="container">
           <ul class="portfolio-nav-list list">
             <li class="portfolio-nav-list-item">
@@ -336,7 +336,7 @@
           </address>
         </div>
         <div class="social-links">
-          <p class="social-links-subtitle">присоединяйтесь</p>
+          <p class="footer-subtitle">присоединяйтесь</p>
           <ul class="social-list list">
             <li class="social-list-item">
               <a class="social-list-link" href="">
@@ -367,6 +367,20 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="newsletter">
+          <p class="footer-subtitle">Подпишитесь на рассылку</b>
+          <form class="newsletter-form">
+            <label class="input">
+              <input type="mail" class="footer-input" name="mail" placeholder="E-mail" />
+              <button type="submit" class="button">
+                Подписаться
+                <svg class="newsletter-svg">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </label>
+          </form>
         </div>
       </div>
     </footer>
