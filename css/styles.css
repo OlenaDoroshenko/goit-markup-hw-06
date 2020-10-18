@@ -554,13 +554,18 @@ img {
   fill: var(--second-accent-font-color);
 }
 
+.newsletter-form {
+  display: flex;
+}
+
 .newsletter {
   margin-left: auto;
 }
 
 .input {
-  width: 358px;
+  display: inline-block;
 }
+
 .footer-input {
   margin-right: 12px;
   padding-left: 16px;
